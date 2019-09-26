@@ -1,56 +1,87 @@
-# Correlates of War Database
+# International Relations Database - Extended
 
-## Project Guide
-SourceData contains the csv and pdf files downloaded from the [Correlates of War website](http://www.correlatesofwar.org/data-sets). In some cases these files have been re-saved with UTF-8 encoding, and in a few cases data-entry errors have been hand-corrected. All changes have been documented in the relevant Jupyter notebook.
+## Context: a brief note
 
-FinalData contains the csv files that have been transformed via python scripts and are ready to be inserted into the database. Each filename corresponds to the name of the table it should be inserted into.
+In Fall/Winter of 2018, I started a project to transform the Correlates of War datasets into one cohesive project. This is an extension of that project - incorporating other datasets commonly used in IR scholarship as well as the linked open data source Wikidata.
 
-DatabaseDesign contains the files related to the design of the database, as well as the SQL script for creating the database.
+For the original Correlates of War Database, please see the folder "OriginalProject_CoW_only" or visit the github project at: https://github.com/jenna-jordan/international-relations-database
 
-DatabaseCreation contains the python script for creating the database file (including loading the tables from FinalData) and the outputted .db file.
+## Introduction
 
-DataTransformation containst the Jupyter notebooks with the code for transforming the files from SourceData into the files in FinalData. There are 5 Jupyter notebooks which correspond to the 5 main entities of the database - State, Territory, IGO, Alliance, and War. The code for the data transformation for each entity is contained in these notebooks.
+This project combines various datasets that are the gold standard for political science research in conflict and international development with the linked open data source Wikidata. By linking the entities in the traditional datasets (e.g. countries, conflicts) with entities in Wikidata, the traditional datasets can be augmented, fact-checked, and contextualized. As a result of expanding these datasets, I hope to be able to use more modern data analysis techniques in order to investigate what factors may contribute to a country falling into violent conflict.
 
-## Data Sources: Citations
+My starting point for this project is a relational database I built for the Correlates of War datasets. The Correlates of War datasets are then augmented by the UCDP/PRIO Armed Conflict dataset. The vast majority of peace and conflict research uses either one or both of these datasets - the Correlates of War is used more for larger wars and interstate conflict, and stretches back to 1816, while the UCDP/PRIO dataset is used more for smaller wars and intrastate conflict, and only goes back to 1946.
 
-- [COW Country Codes](http://www.correlatesofwar.org/data-sets/cow-country-codes)
+For international development indicators, I then incorporate the World Bank DataBank and data from Gapminder. For scoring governments as democratic or authoritarian, I incorporate the Polity IV project. These 5 data sources are all commonly found in the political science literature. Some of these data sources are only available by downloading the csv file from a website, while others are accessible via an API (UCDP/PRIO, World Bank DataBank).
 
-- [State System Membership v2016](http://www.correlatesofwar.org/data-sets/state-system-membership)
+The biggest challenge to incorporating WikiData is entity matching, as different datasets have different criteria and definitions for the same entity type. For example, the Correlates of War and UCDP/PRIO use different definitions of war (Correlates of War has a higher threshold for number of deaths), and they also disagree about the start and end dates for various states (e.g. when a state became an independent actor in the international system after fighting for independence). This is where the CShapes dataset comes in handy. In addition to providing the polygons necessary to visualize this data, each state has 6 different identifiers: a Correlates of War code, a UCDP/PRIO (or G&W) code, and 4 different ISO codes. These ISO codes provide the necessary link for matching countries to Wikidata entries. Matching the individual conflicts, however, is a much more difficult task.
 
-Correlates of War Project. 2017. "State System Membership List, v2016." Online, http://correlatesofwar.org
+## Data Sources
 
-- [COW War Data v4.0](http://www.correlatesofwar.org/data-sets/COW-war)
+### 1: Correlates of War
 
-Sarkees, Meredith Reid and Frank Wayman (2010). Resort to War: 1816 - 2007. Washington DC: CQ Press.
+Dataset Names:
 
-- [National Material Capabilities v5.0](http://www.correlatesofwar.org/data-sets/national-material-capabilities)
+ - State System Membership v2016
+ - COW War Data v4.0
+ - National Material Capabilities v5.0
+ - Formal Alliances v4.1
+ - Territorial Change v5
+ - Direct Contiguity v3.2
+ - Intergovernmental Organizations v2.3
 
-Singer, J. David, Stuart Bremer, and John Stuckey. (1972). "Capability Distribution, Uncertainty, and Major Power War, 1820-1965." in Bruce Russett (ed) Peace, War, and Numbers, Beverly Hills: Sage, 19-48.
+Attribution: Correlates of War Project
 
-Singer, J. David. 1987. "Reconstructing the Correlates of War Dataset on Material Capabilities of States, 1816-1985" International Interactions, 14: 115-32.
+Access:
+ - http://www.correlatesofwar.org/data-sets
+ - https://github.com/jenna-jordan/correlates-of-war-database
 
-- [Formal Alliances v4.1](http://www.correlatesofwar.org/data-sets/formal-alliances)
+### 2: UCDP/PRIO
 
-Gibler, Douglas M. 2009. International military alliances, 1648-2008. CQ Press.
+Dataset name: UCDP/PRIO Armed Conflict Dataset
 
-Singer, J. David, and Melvin Small. 1966. "Formal Alliances, 1815-1939." Journal of Peace Research 3:1-31.
+Attribution: Uppsala Conflict Data Program (UCDP) and Peace Research Institute Oslo (PRIO)
 
-Small, Melvin, and J. David Singer. 1969. "Formal Alliances, 1815-1965: An Extension of the Basic Data." Journal of Peace Research 6:257-282.
+Access:
+ - https://ucdp.uu.se/downloads/#d3
+ - UCDP API: https://ucdp.uu.se/apidocs/
 
-- [Territorial Change v5](http://www.correlatesofwar.org/data-sets/territorial-change)
+### 3: Polity IV
 
-Tir, Jaroslav, Philip Schafer, Paul Diehl, and Gary Goertz. 1998. "Territorial Changes, 1816-1996: Procedures and Data"Conflict Management and Peace Science 16:89-97.
+Dataset name: Polity IV Project, Political Regime Characteristics and Transitions, 1800-2018
 
-- [Direct Contiguity v3.2](http://www.correlatesofwar.org/data-sets/direct-contiguity)
+Attribution: Center for Systemic Peace (CSP)
 
-Correlates of War Project. Direct Contiguity Data, 1816-2016. Version 3.2. 
+Access: http://www.systemicpeace.org/inscrdata.html
 
-Stinnett, Douglas M., Jaroslav Tir, Philip Schafer, Paul F. Diehl, and Charles Gochman. 2002. "The Correlates of War Project Direct Contiguity Data, Version 3." Conflict Management and Peace Science 19(2):58-66.
+### 4: CShapes
 
-Charles S. Gochman, 1991, "Interstate Metrics: Conceptualizing, Operationalizing, and Measuring the Geographic Proximity of States since the Congress of Vienna," International Interactions 17(1): 93-112. 
+Dataset name: CShapes
 
-- [Intergovernmental Organizations v2.3](http://www.correlatesofwar.org/data-sets/IGOs)
+Attribution: Nils Weidmann
 
-Pevehouse, Jon C., Timothy Nordstrom, and Kevin Warnke. 2004. "The COW-2 International Organizations Dataset Version 2.0," Conflict Management and Peace Science 21:101-119.
+Access: http://nils.weidmann.ws/projects/cshapes/shapefile.html
 
-Wallace, Michael, and J. David Singer. 1970. "International Governmental Organization in the Global System, 1815-1964." International Organization 24: 239-87. 
+### 5: Wikipedia/Wikidata
+
+Dataset name: N/A
+
+Attribution: Wikidata
+
+Access: https://query.wikidata.org/ (API)
+
+### 6: World Bank Databank
+
+Dataset name: World Bank Indicators
+
+Attribution: The World Bank DataBank
+
+Access: http://api.worldbank.org/v2/ (API)
+
+### 7: Gapminder
+
+Dataset name: Gapminder World
+
+Attribution: Gapminder
+
+Access: https://www.gapminder.org/data/
