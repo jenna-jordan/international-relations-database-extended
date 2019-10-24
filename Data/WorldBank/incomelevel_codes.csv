@@ -1,0 +1,6 @@
+incomelevel_id,incomelevel_iso2code,incomelevel_value
+HIC,XD,High income
+LIC,XM,Low income
+NA,NA,Aggregates
+LMC,XN,Lower middle income
+UMC,XT,Upper middle income
