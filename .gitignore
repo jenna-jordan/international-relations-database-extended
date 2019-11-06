@@ -1,3 +1,5 @@
 
 SourceData/.DS_Store
 .DS_Store
+Data/WorldBank/wdi_timeseries_full.csv
+Data/WorldBank/wdi_timeseries_trimmed.csv
