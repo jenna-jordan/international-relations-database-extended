@@ -1,0 +1,288 @@
+conflict_id,type_of_conflict,start_date,start_prec,end_date,incompatibility_isTerritory,incompatibility_isGovernment,territory_name
+200,Internal,1946-07-18,1,1967-10-16,0,1,
+201,Extrasystemic,1946-08-31,3,1953-11-09,1,0,Cambodia
+202,Internal,1946-12-31,7,1949-12-08,0,1,
+203,Internal,1946-03-31,4,1949-10-16,0,1,
+204,Extrasystemic,1945-10-13,2,1949-08-15,1,0,Indonesia
+205,Internal,1946-05-31,3,,1,0,Kurdistan
+206,Internal,1945-11-19,1,1946-12-16,1,0,Azerbaijan
+207,Extrasystemic,1939-03-31,4,1946-12-31,1,0,Israel
+208,Extrasystemic,1946-03-31,4,1953-12-31,1,0,Laos
+209,Internal,1946-07-31,4,,0,1,
+210,Internal,1944-12-31,6,1948-12-31,1,0,Estonia
+211,Internal,1945-12-31,6,1946-12-31,1,0,Latvia
+212,Internal,1946-06-30,4,1948-12-31,1,0,Lithuania
+213,Internal,1941-12-31,5,1950-12-31,1,0,Ukraine
+214,Interstate,1946-05-07,1,1946-11-17,1,0,Northern Cambodia
+215,Interstate,1946-10-22,1,1946-12-31,1,0,Korfu Channel
+216,Extrasystemic,1946-11-20,1,1954-07-20,1,0,Vietnam
+217,Internal,1947-02-28,1,1947-03-24,1,0,Taiwan
+218,Interstate,1948-12-31,5,,1,0,Kashmir
+219,Extrasystemic,1947-03-29,1,1947-12-31,1,0,Malagasy
+220,Internal,1947-03-07,2,1989-02-03,0,1,
+221,Internal,1948-12-31,3,2013-04-29,1,0,Karen
+222,Internal,1948-02-29,4,,0,1,
+223,Internal,1948-01-31,4,,1,0,Arakan
+224,Internal,1948-12-31,3,1996-12-23,1,0,Mon
+225,Internal,1948-03-03,2,1948-04-20,0,1,
+226,Interstate,1948-09-13,2,1948-09-18,1,0,Hyderabad
+227,Internal,1948-05-01,1,,0,1,
+228,Interstate,1948-04-15,1,1949-01-07,1,0,Palestine
+229,Extrasystemic,1948-06-19,1,1957-08-31,1,0,Malaya
+230,Internal,1948-03-15,4,,0,1,
+231,Internal,1949-12-31,6,,1,0,Kachin
+232,Interstate,1949-10-31,3,1958-12-31,1,1,Taiwan strait
+233,Internal,1949-07-18,1,1995-12-31,0,1,
+234,Internal,1948-05-15,1,,1,0,Palestine
+235,Interstate,1949-05-31,3,1953-07-27,1,0,Korea
+236,Internal,1950-10-07,1,1959-04-23,1,0,Tibet
+237,Internal,1950-08-05,1,1950-11-15,1,0,South Moluccas
+238,Extrasystemic,1950-10-30,1,1950-11-01,1,0,Puerto Rico
+239,Interstate,1951-10-18,1,1952-12-31,1,0,Suez
+240,Internal,1951-06-30,1,1982-12-31,0,1,
+241,Extrasystemic,1952-10-22,2,1956-12-31,1,0,Kenya
+242,Internal,1953-07-26,1,1961-04-20,0,1,
+243,Internal,1953-12-31,5,1961-12-31,0,1,
+244,Extrasystemic,1953-11-07,1,1956-03-02,1,0,Morocco
+245,Extrasystemic,1953-04-30,3,1956-03-20,1,0,Tunisia
+246,Extrasystemic,1954-11-01,1,1962-03-19,1,0,Algeria
+247,Internal,1955-06-16,1,1977-12-31,0,1,
+248,Extrasystemic,1955-06-02,1,1959-02-19,1,0,Cyprus
+249,Internal,1955-04-30,3,1964-12-31,1,0,South Vietnam
+250,Interstate,1956-10-23,1,1956-11-14,0,1,
+251,Internal,1955-07-20,2,2000-09-13,1,0,Nagaland
+252,Interstate,1956-10-31,1,1956-11-06,1,0,Suez
+253,Internal,1957-12-31,6,2005-01-25,1,0,Karenni
+254,Extrasystemic,1957-09-30,3,1959-12-31,1,0,Cameroon
+255,Interstate,1957-05-01,1,1957-05-07,1,0,Common Border
+256,Extrasystemic,1957-01-12,2,1958-06-30,1,0,Morocco/Mauritania
+257,Extrasystemic,1957-11-23,2,1958-06-30,1,0,Morocco/Spanish territories
+258,Internal,1957-07-31,3,1957-08-26,1,0,Oman
+259,Internal,1958-07-14,1,,0,1,
+260,Internal,1958-05-15,2,1990-10-13,0,1,
+264,Internal,1959-11-22,1,2015-11-30,1,0,Shan
+261,Internal,1957-12-31,5,1981-12-31,0,1,
+262,Internal,1959-11-12,1,1990-04-10,0,1,
+263,Extrasystemic,1961-02-04,1,1974-10-21,1,0,Angola
+265,Internal,1961-10-27,1,2014-11-05,1,0,Katanga
+266,Internal,1960-08-31,2,1962-12-31,1,0,South Kasai
+267,Internal,1960-12-17,2,1991-06-02,0,1,
+268,Interstate,1964-02-10,2,1980-12-03,1,0,Ogaden
+269,Internal,1960-02-29,4,2006-09-21,0,1,
+270,Internal,1961-04-22,1,1962-06-30,0,1,
+271,Internal,1945-08-30,3,1996-09-30,1,0,Kurdistan
+272,Interstate,1961-07-20,1,1961-07-22,1,0,Bizerte
+273,Extrasystemic,1962-12-08,1,1962-12-31,1,0,North Borneo
+274,Interstate,1959-08-31,3,1967-12-31,1,0,"Aksai Chin, Arunachal Pradesh"
+275,Internal,1961-09-30,3,1991-05-31,1,0,Eritrea
+276,Interstate,1962-01-15,1,1962-09-21,1,0,West New Guinea
+277,Internal,1962-06-03,2,1992-11-27,0,1,
+278,Interstate,1963-10-08,1,1963-11-04,1,0,Common Border
+279,Extrasystemic,1963-02-28,3,1973-12-31,1,0,Guinea-Bissau
+280,Internal,1963-12-31,7,1966-12-31,1,0,North Borneo
+282,Internal,1963-12-31,5,1972-01-31,1,0,Southern Sudan
+281,Interstate,1962-12-08,1,1966-08-11,1,0,North Borneo
+283,Internal,1964-01-03,1,,0,1,
+285,Extrasystemic,1964-11-19,1,1974-09-07,1,0,Mozambique
+286,Extrasystemic,1964-11-25,1,1967-11-29,1,0,Aden/South Yemen
+284,Internal,1964-02-18,1,1964-02-19,0,1,
+287,Internal,1965-10-18,1,2015-12-11,0,1,
+288,Internal,1966-07-31,4,,0,1,
+289,Internal,1964-12-31,5,,0,1,
+290,Internal,1965-04-24,1,1965-08-31,0,1,
+291,Internal,1965-07-28,1,,1,0,West Papua
+292,Internal,1963-05-15,1,2010-12-30,0,1,
+293,Interstate,1965-12-31,5,1975-04-30,1,0,South Vietnam
+294,Interstate,1975-12-15,2,2011-05-02,1,0,Common Border
+295,Internal,1966-02-24,1,1983-06-19,0,1,
+296,Internal,1966-09-01,2,1968-12-31,1,0,Mizoram
+297,Internal,1966-01-15,1,,0,1,
+298,Internal,1966-08-26,1,1988-08-08,1,0,Namibia
+299,Internal,1966-02-23,1,,0,1,
+300,Internal,1967-04-30,3,1998-10-24,0,1,
+308,Internal,1970-08-20,1,,1,0,Mindanao
+301,Interstate,1967-06-05,1,1967-06-10,1,0,West Bank
+302,Interstate,1967-06-05,1,1973-10-24,1,0,Golan Heights
+303,Internal,1967-07-06,2,1970-01-12,1,0,Biafra
+304,Interstate,1969-02-28,4,1969-12-31,1,0,Common Border
+305,Interstate,1969-03-02,1,1969-12-31,1,0,Ussuri river
+306,Interstate,1969-07-03,2,1969-07-18,1,0,Common Border
+307,Internal,2000-09-01,1,2001-07-19,0,1,
+309,Internal,1971-07-22,1,,0,1,
+310,Internal,1971-04-30,3,1971-04-30,0,1,
+311,Internal,1971-07-10,1,1971-07-11,0,1,
+312,Internal,1971-03-26,1,1971-12-16,1,0,East Pakistan
+313,Internal,1971-04-05,1,1990-02-23,0,1,
+314,Internal,1971-01-25,1,,0,1,
+315,Internal,1970-08-11,1,1998-08-15,1,0,Northern Ireland
+316,Internal,1972-03-25,1,1991-11-18,0,1,
+317,Internal,1968-10-31,3,1975-12-11,0,1,
+318,Internal,1966-04-29,1,1979-12-21,0,1,
+319,Internal,1970-04-13,1,1972-12-31,0,1,
+320,Interstate,1972-02-21,1,1979-03-30,1,1,Common border
+321,Internal,1973-09-11,1,1973-09-11,0,1,
+322,Internal,1975-02-28,5,1991-12-31,1,0,Chittagong Hill Tracts
+323,Interstate,1974-06-20,2,1974-08-16,1,0,Northern Cyprus
+324,Interstate,1972-04-11,1,1988-08-20,1,1,Various
+325,Internal,1973-05-18,1,2016-10-23,1,0,Balochistan
+326,Internal,1993-12-16,1,2003-08-09,0,1,
+327,Internal,1975-11-11,1,2002-04-01,0,1,
+328,Interstate,1975-05-01,1,1977-12-31,1,0,Common Border
+329,Internal,1964-01-11,2,2016-12-31,1,0,Ogaden
+330,Internal,1975-12-07,1,1999-09-22,1,0,East Timor
+331,Internal,1975-09-01,1,1989-11-16,1,0,Sahrawi Arab Democratic Republic (Western Sahara)
+332,Internal,1977-12-31,6,,0,1,
+333,Internal,1975-07-02,2,,0,1,
+334,Interstate,1974-01-19,1,1988-12-31,1,0,Various
+335,Internal,1979-07-09,1,2004-12-28,1,0,Tripura
+336,Internal,1974-12-27,2,1990-04-15,0,1,
+337,Internal,1982-01-18,1,,0,1,
+338,Internal,1972-08-13,1,,0,1,
+339,Internal,1979-05-30,1,1980-12-31,1,0,Arabistan
+340,Internal,1979-11-20,1,1979-12-04,0,1,
+341,Internal,1980-04-12,1,2003-11-21,0,1,
+342,Internal,1968-06-07,1,1991-12-13,1,0,Basque
+343,Internal,1980-01-27,1,1980-01-28,0,1,
+344,Internal,1981-07-30,1,1981-08-05,0,1,
+345,Internal,1978-02-01,1,1988-12-31,0,1,
+346,Interstate,1982-04-02,1,1982-06-14,1,0,Malvinas/Falkland Islands
+347,Internal,1979-04-26,1,2009-12-28,1,0,Manipur
+348,Internal,1982-08-01,1,1982-08-21,0,1,
+349,Interstate,1983-04-18,1,1983-11-01,1,0,Lake Chad
+350,Interstate,1983-10-25,1,1983-10-27,0,1,
+351,Internal,1981-09-20,1,1993-12-24,1,0,Punjab/Khalistan
+352,Internal,1975-07-27,1,2009-07-04,1,0,Eelam
+353,Internal,1960-01-31,4,2017-12-03,0,1,
+354,Internal,1983-05-01,1,,1,0,Kurdistan
+355,Interstate,1985-12-25,1,1985-12-31,1,0,Agacher Strip
+356,Interstate,1982-06-16,1,1988-02-17,1,0,Common Border
+357,Internal,1986-08-21,1,1987-12-31,0,1,
+358,Internal,1986-09-23,2,1986-09-24,0,1,
+359,Internal,1986-01-13,1,1986-01-20,0,1,
+360,Internal,1987-10-15,1,,0,1,
+361,Interstate,1987-08-08,1,1987-09-12,1,0,Aozou strip
+362,Internal,1989-11-27,2,1989-11-29,0,1,
+363,Internal,1975-06-30,3,1996-12-31,1,0,Afar
+364,Internal,1984-02-06,1,,1,0,Kashmir
+365,Internal,1983-12-31,5,2010-10-16,1,0,Assam
+366,Internal,1989-05-02,3,2005-10-12,1,0,Aceh
+367,Internal,1989-10-03,1,1989-10-03,0,1,
+368,Interstate,1989-12-16,1,1989-12-23,0,1,
+369,Internal,1989-04-06,1,1996-11-28,1,0,Bougainville
+370,Internal,1989-12-17,2,1989-12-29,0,1,
+371,Interstate,1990-08-02,1,1991-03-01,1,0,Kuwait
+372,Internal,1990-06-28,1,2015-05-18,1,0,Azawad
+373,Internal,1994-01-19,1,1994-09-26,1,0,Air and Azawad
+374,Internal,1990-10-01,1,,0,1,
+375,Internal,1988-12-31,3,2011-12-30,1,0,Casamance
+376,Internal,1990-01-19,3,1991-12-21,1,0,Nagorno-Karabakh
+377,Internal,1990-01-20,2,1990-01-27,1,0,Azerbaijan
+378,Internal,1990-07-27,1,1990-08-02,0,1,
+379,Internal,1991-11-12,1,1999-08-31,0,1,
+380,Internal,1991-12-22,1,1993-11-16,0,1,
+381,Internal,1989-04-03,1,2004-11-19,0,1,
+382,Internal,1991-03-23,1,2001-12-20,0,1,
+383,Internal,1987-12-31,5,2016-12-17,0,1,
+384,Internal,1991-06-27,1,1991-07-03,1,0,Slovenia
+385,Internal,1991-07-09,1,1992-04-06,1,0,Croatia
+386,Internal,1985-08-27,1,,0,1,
+387,Internal,1991-06-03,3,2017-12-31,1,0,Cabinda
+388,Internal,1991-12-29,1,2017-12-14,1,0,Artsakh (Nagorno-Karabakh)
+389,Internal,1992-04-27,1,1995-12-31,1,0,Serb
+390,Internal,1992-04-29,1,1995-09-06,1,0,Serb
+391,Internal,1981-10-08,1,,0,1,
+392,Internal,1992-08-14,1,1993-11-29,1,0,Abkhazia
+393,Internal,1992-05-12,1,2008-11-09,1,0,South Ossetia
+394,Internal,1992-03-01,1,1992-07-31,1,0,Dniestr
+395,Internal,1992-05-05,1,2011-07-25,0,1,
+396,Internal,1992-05-15,1,1995-03-17,0,1,
+397,Internal,1993-07-21,1,1995-07-28,1,0,Bihaca Krajina
+398,Internal,1993-01-13,1,1994-09-05,1,0,Croat
+399,Internal,1991-08-20,1,1993-10-05,0,1,
+400,Internal,1994-01-01,1,1996-12-31,0,1,
+401,Internal,1994-05-27,1,2007-10-06,1,0,Chechnya
+402,Internal,1994-02-21,1,1994-07-04,1,0,South Yemen
+403,Interstate,1995-01-26,1,1995-12-31,1,0,Cordillera del Condor
+404,Internal,1990-02-11,2,,0,1,
+405,Interstate,1994-02-18,1,1996-05-07,1,0,Bakassi
+406,Internal,1995-03-23,1,1995-07-10,1,0,Eastern Niger
+407,Internal,1997-09-03,1,1997-09-05,1,0,Anjouan
+408,Internal,1993-11-03,1,2016-12-10,0,1,
+409,Interstate,1998-05-06,1,2016-06-13,1,0,Common border
+410,Internal,1998-06-07,1,1999-05-07,0,1,
+411,Internal,1998-09-04,1,1998-09-28,0,1,
+412,Internal,1996-04-22,1,1999-11-21,1,0,Kosovo
+413,Internal,1974-08-31,4,2016-12-31,1,0,Oromiya
+414,Internal,1999-08-29,1,1999-09-09,1,0,Dagestan
+415,Internal,1999-02-16,1,2004-07-30,0,1,
+416,Internal,2001-05-27,1,,0,1,
+417,Internal,2000-01-11,1,2001-08-17,0,1,
+418,Internal,2001-09-11,1,2017-12-04,0,1,
+419,Internal,2002-09-19,1,2011-04-27,0,1,
+421,Internal,1989-02-16,1,2014-12-31,1,0,Bodoland
+420,Interstate,2003-03-20,1,2003-04-28,0,1,
+422,Internal,1997-03-16,5,1997-07-15,1,0,Wa
+423,Internal,1965-12-31,5,,1,0,Patani
+424,Internal,2003-12-28,2,2004-10-08,1,0,Northern Nigeria
+425,Internal,2004-06-04,1,2004-09-20,1,0,Niger Delta
+426,Internal,1986-09-30,4,2006-08-23,1,0,Southern Lebanon
+427,Interstate,1978-11-11,2,1978-11-16,1,0,Kagera Salient
+428,Internal,1975-12-10,1,1978-12-31,1,0,Sahrawi Arab Democratic Republic (Western Sahara)
+429,Internal,1998-07-02,1,2017-08-31,1,0,Kongo Kingdom
+430,Internal,1991-10-25,1,2008-11-16,0,1,
+431,Interstate,1979-12-27,1,1979-12-28,0,1,
+432,Internal,2007-10-07,1,2015-10-21,1,0,Caucasus Emirate
+434,Internal,2000-06-20,1,2008-12-22,1,0,Islamic State
+435,Interstate,2008-06-10,1,2008-06-11,1,0,Common border
+436,Internal,1977-12-31,5,1980-12-31,1,0,"Arssi, Bale & Sidamo"
+437,Internal,1982-12-31,5,1983-12-31,1,0,Sidamaland
+439,Internal,2009-08-27,1,2017-03-12,1,0,Kokang
+440,Internal,1973-01-11,2,1982-12-31,1,0,Lahu
+442,Internal,2008-09-15,1,2011-10-20,0,1,
+11342,Internal,1997-05-29,1,2014-11-27,1,0,Garoland
+11343,Interstate,1967-06-05,1,1973-10-24,1,0,Suez/Sinai
+11344,Internal,2011-05-01,1,2011-06-15,1,0,Abyei
+11345,Internal,2011-08-20,2,,0,1,
+11346,Internal,2011-02-28,1,2017-11-12,0,1,
+11347,Internal,2009-06-14,2,,0,1,
+11348,Interstate,2012-03-27,1,2012-12-26,1,0,Common border
+11349,Internal,1990-04-05,1,2008-08-29,1,0,"East Turkestan
+"
+11350,Internal,1994-04-24,1,2006-12-22,0,1,
+11447,Internal,1991-10-10,2,1991-10-10,1,0,Hararghe
+11475,Internal,1991-12-31,3,2007-02-15,1,0,Nagaland
+11487,Internal,2013-03-01,1,2013-04-24,1,0,Sabah
+11884,Internal,1947-06-30,4,1948-09-18,0,1,
+13042,Internal,2011-09-10,2,2015-07-25,1,0,Rojava Kurdistan
+13219,Internal,2014-01-22,1,2014-02-21,0,1,
+13246,Internal,2014-04-12,1,2014-09-16,1,0,Donetsk
+13247,Internal,2014-05-04,1,2014-08-26,1,0,Lugansk
+13639,Internal,2015-03-26,1,,1,0,Islamic State
+13306,Internal,2014-09-17,1,,1,0,Novorossiya
+13588,Internal,2015-03-21,1,,1,0,Islamic State
+13604,Internal,2013-05-14,1,,1,0,Islamic State
+13611,Internal,2015-01-05,1,2015-10-28,1,0,Macina Empire
+13637,Internal,2015-02-09,1,,1,0,Islamic State
+13638,Internal,2015-03-19,1,2016-10-06,1,0,Islamic State
+13640,Internal,2015-05-27,1,,1,0,Islamic State
+13641,Internal,2015-03-15,1,,1,0,Islamic State
+13645,Internal,2015-03-20,1,2015-10-06,1,0,Islamic State
+13646,Internal,2015-03-13,1,,1,0,Northeastern Province and Coast
+13648,Internal,2014-11-16,1,,1,0,Islamic State
+13653,Internal,2015-04-19,1,,1,0,Western South East Asia
+13674,Internal,2015-11-04,1,2017-09-06,1,0,Islamic State
+13675,Internal,2014-06-25,1,2017-08-27,1,0,Islamic State
+13692,Interstate,2001-10-07,1,2001-11-13,0,1,
+13694,Internal,2015-03-14,1,,1,0,Islamic State
+13721,Internal,2014-10-10,1,2015-05-20,1,0,Islamic State
+13809,Internal,2015-12-06,1,,1,1,Rojava Kurdistan
+13886,Internal,2016-03-02,2,2016-12-29,1,0,Islamic State
+13902,Internal,2015-07-23,1,2017-09-06,1,0,Islamic State
+13936,Internal,2016-02-12,1,,1,0,Islamic State
+14074,Internal,2018-01-08,1,,1,0,Somaliland
+14129,Internal,2017-09-16,1,,1,0,Ambazonia
+14268,Internal,2016-08-15,1,2017-06-11,1,0,Islamic State
+14275,Internal,2016-06-01,1,,1,0,Islamic State
+14333,Internal,2015-03-18,1,2016-11-09,1,0,Islamic State
+14113,Internal,2017-02-04,1,,1,0,Islamic State
+14609,Interstate,2018-02-10,1,,0,1,
