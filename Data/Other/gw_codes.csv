@@ -1,4 +1,4 @@
-gw_id,ISO_alpha3,gw_name,gw_startdate,gw_enddate
+gw_id,abbr,gw_name,gw_startdate,gw_enddate
 2,USA,United States of America,1816-01-01,2017-12-31
 20,CAN,Canada,1867-07-01,2017-12-31
 31,BHM,Bahamas,1973-07-10,2017-12-31
@@ -215,3 +215,26 @@ gw_id,ISO_alpha3,gw_name,gw_startdate,gw_enddate
 920,NEW,New Zealand,1907-09-01,2017-12-31
 940,SOL,Solomon Islands,1978-07-07,2017-12-31
 950,FJI,Fiji,1970-10-10,2017-12-31
+54,DMA,Dominica,1978-11-03,2017-12-31
+55,GRN,Grenada,1974-02-07,2017-12-31
+56,SLU,Saint Lucia,1979-02-22,2017-12-31
+57,SVG,Saint Vincent and the Grenadines,1979-10-27,2017-12-31
+58,AAB,Antigua & Barbuda,1981-11-01,2017-12-31
+60,SKN,Saint Kitts and Nevis,1983-09-19,2017-12-31
+221,MNC,Monaco,1816-01-01,2017-12-31
+223,LIE,Liechtenstein,1816-01-01,2017-12-31
+331,SNM,San Marino,1816-01-01,2017-12-31
+232,AND,Andorra,1816-01-01,2017-12-31
+396,ABK,Abkhazia,2008-08-26,2017-12-31
+397,SOT,South Ossetia,2008-08-26,2017-12-31
+403,STP,São Tomé and Principe,1975-07-12,2017-12-31
+591,SEY,Seychelles,1976-06-29,2017-12-31
+935,VAN,Vanuatu,1980-06-30,2017-12-31
+970,KBI,Kiribati,1979-07-12,2017-12-31
+971,NAU,Nauru,1968-12-31,2017-12-31
+972,TON,Tonga,1970-06-04,2017-12-31
+973,TUV,Tuvalu,1978-10-01,2017-12-31
+983,MSI,Marshall Islands,1986-10-21,2017-12-31
+986,PAL,Palau,1994-10-01,2017-12-31
+987,FSM,Federated States of Micronesia,1986-11-03,2017-12-31
+990,WSM,Samoa/Western Samoa,1962-01-01,2017-12-31
