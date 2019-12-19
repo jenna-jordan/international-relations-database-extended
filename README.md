@@ -1,87 +1,27 @@
 # International Relations Database - Extended
 
-## Context: a brief note
-
-In Fall/Winter of 2018, I started a project to transform the Correlates of War datasets into one cohesive project. This is an extension of that project - incorporating other datasets commonly used in IR scholarship as well as the linked open data source Wikidata.
-
-For the original Correlates of War Database, please see the folder "OriginalProject_CoW_only" or visit the github project at: https://github.com/jenna-jordan/international-relations-database
-
 ## Introduction
 
-This project combines various datasets that are the gold standard for political science research in conflict and international development with the linked open data source Wikidata. By linking the entities in the traditional datasets (e.g. countries, conflicts) with entities in Wikidata, the traditional datasets can be augmented, fact-checked, and contextualized. As a result of expanding these datasets, I hope to be able to use more modern data analysis techniques in order to investigate what factors may contribute to a country falling into violent conflict.
+This project combines datasets relevant for research in peace/conflict and international development into a country-year time series dataset. The following datasets are included: Correlates of War, UCDP/PRIO Armed Conflict, Polity IV, and World Bank World Development Indicators. An edited form of the "countrycode" package's dataframe "codelist_panel" is used to merge these datasets together.
 
-My starting point for this project is a relational database I built for the Correlates of War datasets. The Correlates of War datasets are then augmented by the UCDP/PRIO Armed Conflict dataset. The vast majority of peace and conflict research uses either one or both of these datasets - the Correlates of War is used more for larger wars and interstate conflict, and stretches back to 1816, while the UCDP/PRIO dataset is used more for smaller wars and intrastate conflict, and only goes back to 1946.
+## Navigating the Project
 
-For international development indicators, I then incorporate the World Bank DataBank and data from Gapminder. For scoring governments as democratic or authoritarian, I incorporate the Polity IV project. These 5 data sources are all commonly found in the political science literature. Some of these data sources are only available by downloading the csv file from a website, while others are accessible via an API (UCDP/PRIO, World Bank DataBank).
+"Data" contains all of the data files for the project - original source files, intermediate wrangled data files, and the final dataset. All original and intermediate files are in their respective source folders. All final data files, including the final time series dataset and the files merged together to create the dataset, are in the folder "FINAL". Each of the source subfolders contain subfolders that follow the same naming structure: "Raw" contains files directly downloaded and left in their original state, and "Wrangled" contains files that result from the "raw" datasets being manipulated. The "Data" folder contains the following subfolders:
 
-The biggest challenge to incorporating WikiData is entity matching, as different datasets have different criteria and definitions for the same entity type. For example, the Correlates of War and UCDP/PRIO use different definitions of war (Correlates of War has a higher threshold for number of deaths), and they also disagree about the start and end dates for various states (e.g. when a state became an independent actor in the international system after fighting for independence). This is where the CShapes dataset comes in handy. In addition to providing the polygons necessary to visualize this data, each state has 6 different identifiers: a Correlates of War code, a UCDP/PRIO (or G&W) code, and 4 different ISO codes. These ISO codes provide the necessary link for matching countries to Wikidata entries. Matching the individual conflicts, however, is a much more difficult task.
+- FINAL: all final datasets to be merged together. The final time series dataset is called "final_time-series.csv"
+- Other: contains files from G&W and countrycodes
+- WorldBank: contains files created by accessing the World Bank API
+- CShapes: contains the original shapefiles and a CSV of the shapefile attributes
+- PolityIV: contains datasets from the Polity IV project
+- UCDP_PRIO: contains datasets both downloaded from UCDP's website and accessed via UCDP's API
+- CoW: contains datasets downloaded from the Correlates of War Project
 
-## Data Sources
+"Documentation" contains all of the necessary documentation, including both documentation that I have written and the source datasets' original documentation. Documentation downloaded from the source datasets are contained in their respective subfolders inside the subfolder "Original".
 
-### 1: Correlates of War
+"Gather_Data" contains the Jupyter notebooks used to gather data from the World Bank API and the UCDP API, as well as a notebook that extracts the attributes from the CShapes shapefiles. It also contains the R script used to access countrycode's "codelist_panel" dataframe.
 
-Dataset Names:
+"Wrangle_Data" contains the Jupyter notebooks used to normalize the UCDP/PRIO dataset and the CoW datasets, as well as editing the countrycode file for any errors identified while exploring discrepancies between the datasets' identifiers. The notebook for trimming the World Bank data is deprecated, as in the end I did not use the full WDI dataset but simply gathered the identified top 25 indicators.
 
- - State System Membership v2016
- - COW War Data v4.0
- - National Material Capabilities v5.0
- - Formal Alliances v4.1
- - Territorial Change v5
- - Direct Contiguity v3.2
- - Intergovernmental Organizations v2.3
+"Mashup_Data" contains the Jupyter notebooks used to create the final dataset, including both the final time series and the notebooks that create the last intermediate data files that feed into the final time series.
 
-Attribution: Correlates of War Project
-
-Access:
- - http://www.correlatesofwar.org/data-sets
- - https://github.com/jenna-jordan/correlates-of-war-database
-
-### 2: UCDP/PRIO
-
-Dataset name: UCDP/PRIO Armed Conflict Dataset
-
-Attribution: Uppsala Conflict Data Program (UCDP) and Peace Research Institute Oslo (PRIO)
-
-Access:
- - https://ucdp.uu.se/downloads/#d3
- - UCDP API: https://ucdp.uu.se/apidocs/
-
-### 3: Polity IV
-
-Dataset name: Polity IV Project, Political Regime Characteristics and Transitions, 1800-2018
-
-Attribution: Center for Systemic Peace (CSP)
-
-Access: http://www.systemicpeace.org/inscrdata.html
-
-### 4: CShapes
-
-Dataset name: CShapes
-
-Attribution: Nils Weidmann
-
-Access: http://nils.weidmann.ws/projects/cshapes/shapefile.html
-
-### 5: Wikipedia/Wikidata
-
-Dataset name: N/A
-
-Attribution: Wikidata
-
-Access: https://query.wikidata.org/ (API)
-
-### 6: World Bank Databank
-
-Dataset name: World Bank Indicators
-
-Attribution: The World Bank DataBank
-
-Access: http://api.worldbank.org/v2/ (API)
-
-### 7: Gapminder
-
-Dataset name: Gapminder World
-
-Attribution: Gapminder
-
-Access: https://www.gapminder.org/data/
+"Results" contains the Jupyter notebook used to assess and explore the final time series dataset.
