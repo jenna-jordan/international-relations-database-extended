@@ -3,7 +3,7 @@ library(countrycode)
 ?codelist
 View(codelist_panel)
 
-setwd("~/Documents/GitHub/international-relations-database-extended/Mashup_Data/")
+setwd("~/Documents/GitHub/international-relations-database-extended/Gather_Data/")
 
 # subset codelist_panel so years are after 1945 and only needed codes are included
 needed.columns = c('country.name.en', 'year', 'continent', 'region', 'cown', 'gwn', 'iso3c', 'p4n', 'wb')
