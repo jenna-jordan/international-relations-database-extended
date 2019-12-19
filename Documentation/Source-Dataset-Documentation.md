@@ -19,7 +19,7 @@ Note: All CSV files that were not directly downloaded from a website can be assu
 
 The Correlates of War is a collection of datasets that track the all wars since 1816 (at least 1,000 battle deaths) and related variables. See their [website](http://www.correlatesofwar.org/) for more information about the project. 
 
-For this project, I will be focusing on the 4 war datasets. The datasets I integrated into the Correlates of War database project (available [here](https://github.com/jenna-jordan/international-relations-database)) can be integrated at a later point.
+For this project, I focused on the 4 war datasets. The datasets I integrated into the Correlates of War database project (available [here](https://github.com/jenna-jordan/international-relations-database)) can be integrated at a later point.
 
 ### Attribution & Provenance 
 
@@ -38,7 +38,13 @@ The CoW datasets are only accessible by downloading the files from the [Correlat
 
 The following files are in `/Data/CoW/Raw`
 
-- `Extra-StateWarData_v4.0.csv`- `Inter-StateWarData_v4.0.csv`- `Intra-StateWarData_v4.1.csv`- `Non-StateWarData_v4.0.csv`- `system2016.csv`- `states2016.csv`- `COW country codes.csv`
+- `Extra-StateWarData_v4.0.csv`
+- `Inter-StateWarData_v4.0.csv`
+- `Intra-StateWarData_v4.1.csv`
+- `Non-StateWarData_v4.0.csv`
+- `system2016.csv`
+- `states2016.csv`
+- `COW country codes.csv`
 
 Additionally, I used [Tabula](https://tabula.technology/) to transform the PDF file `CowWarList.pdf` into a CSV file. The original PDF and transformed CSV files are available in the directory `/Data/CoW/From_PDF`.
 
@@ -48,7 +54,11 @@ These raw data files are fully documented in the original documentation. The ori
 
 In order to transform these files into a structure that I could use for my final dataset, I needed to normalize these files. I completed this normalization process using the `pandas` library in a Jupyter notebook. The notebook can be found here: `/Wrangle_Data/Normalize_CoW.ipynb`. This notebook outputs the following CSV files, which can be found in the directory `/Data/CoW/Wrangled`:
 
-- `war_participants.csv`- `polities.csv`- `war_locations.csv`- `war_transitions.csv`- `wars.csv`
+- `war_participants.csv`
+- `polities.csv`
+- `war_locations.csv`
+- `war_transitions.csv`
+- `wars.csv`
 
 In order to add the CoW data to the final dataset, I needed to transform the data into a country-year time series. I did this using `pandas` in a Jupyter notebook that can be found here: `/Mashup_Data/Merge_CoW.ipynb`. This notebook outputs a single CSV file that can be found here: `/Data/FINAL/cow.csv`. This file contains the CoW data that is merged to make the final time-series dataset. All columns in the final dataset that come from this file are prefixed with `cow_`.
 
@@ -76,7 +86,13 @@ The original Armed Conflict dataset is fully documented in the original document
 
 Like the CoW datasets, the first thing I did with the original Armed Conflict dataset was to normalize it. I used `pandas` to complete this process in the Jupyter notebook that can be found here: `/Wrangle_Data/Normalize_UCDP-PRIO.ipynb`. This notebook outputs the following CSV files, which can be found in the directory `/Data/UCDP_PRIO/Wrangled`:
 
-- `observations.csv`- `regions.csv`- `locations.csv`- `participants_ucdp.csv`- `participants_gw.csv`- `episodes.csv`- `conflicts.csv`
+- `observations.csv`
+- `regions.csv`
+- `locations.csv`
+- `participants_ucdp.csv`
+- `participants_gw.csv`
+- `episodes.csv`
+- `conflicts.csv`
 
 In order to add the Armed Conflict data to the final dataset, I needed to transform the relevant data into a country-year time series. I again used `pandas` in the Jupyter notebook `/Mashup_Data/Merge_UCDP.ipynb`, which outputs the CSV file `/Data/FINAL/ucdp.csv`. All columns in the final dataset that come from this file are prefixed with `ucdp_`.
 
@@ -120,9 +136,16 @@ I collected this data via API. The documentation for the Indicator API is [here]
 
 First, I collected the metadata for all countries and indicators in the Indicators database. This was done in the Jupyter notebook `/Gather_Data/WB-CountriesAndIndicators_API.ipynb`. This notebook outputted the following CSV files to the directory `/Data/WorldBank/Raw_API`:
 
-- `indicators_list.csv`- `indicator-sources_codes.csv`- `indicator-topics_codes.csv`- `indicators-wdi-wtopics.csv`
+- `indicators_list.csv`
+- `indicator-sources_codes.csv`
+- `indicator-topics_codes.csv`
+- `indicators-wdi-wtopics.csv`
 
-- `countries_list.csv`- `region_codes.csv`- `adminregion_codes.csv`- `incomelevel_codes.csv`- `lendinglevel_codes.csv`
+- `countries_list.csv`
+- `region_codes.csv`
+- `adminregion_codes.csv`
+- `incomelevel_codes.csv`
+- `lendinglevel_codes.csv`
 
 The JSON output from the API contained some hierarchical data, which I normalized in to the above table. The core information can be found in `indicators_list.csv` and `countries_list.csv`.
 

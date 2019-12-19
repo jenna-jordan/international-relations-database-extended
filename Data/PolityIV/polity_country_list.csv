@@ -1,181 +1,181 @@
-ccode,scode,country,year
-2,USA,United States,1946
-20,CAN,Canada,1946
-40,CUB,Cuba,1946
-41,HAI,Haiti,1946
-42,DOM,Dominican Republic,1946
-51,JAM,Jamaica,1959
-52,TRI,Trinidad and Tobago,1962
-70,MEX,Mexico,1946
-90,GUA,Guatemala,1946
-91,HON,Honduras,1946
-92,SAL,El Salvador,1946
-93,NIC,Nicaragua,1946
-94,COS,Costa Rica,1946
-95,PAN,Panama,1946
-100,COL,Colombia,1946
-101,VEN,Venezuela,1946
-110,GUY,Guyana,1966
-115,SUR,Suriname,1975
-130,ECU,Ecuador,1946
-135,PER,Peru,1946
-140,BRA,Brazil,1946
-145,BOL,Bolivia,1946
-150,PAR,Paraguay,1946
-155,CHL,Chile,1946
-160,ARG,Argentina,1946
-165,URU,Uruguay,1946
-200,UKG,United Kingdom,1946
-205,IRE,Ireland,1946
-210,NTH,Netherlands,1946
-211,BEL,Belgium,1946
-212,LUX,Luxembourg,1946
-220,FRN,France,1946
-225,SWZ,Switzerland,1946
-230,SPN,Spain,1946
-235,POR,Portugal,1946
-255,GMY,Germany,1990
-260,GFR,Germany West,1946
-265,GDR,Germany East,1946
-290,POL,Poland,1946
-305,AUS,Austria,1946
-310,HUN,Hungary,1946
-315,CZE,Czechoslovakia,1946
-316,CZR,Czech Republic,1993
-317,SLO,Slovak Republic,1993
-325,ITA,Italy,1946
-339,ALB,Albania,1946
-341,KOS,Kosovo,2008
-342,SER,Serbia,2006
-343,MAC,Macedonia,1991
-344,CRO,Croatia,1991
-345,YUG,Yugoslavia,1946
-346,BOS,Bosnia,1992
-347,YGS,Yugoslavia,1991
-348,MNT,Montenegro,2006
-349,SLV,Slovenia,1991
-350,GRC,Greece,1946
-352,CYP,Cyprus,1960
-355,BUL,Bulgaria,1946
-359,MLD,Moldova,1991
-360,RUM,Romania,1946
-364,USR,USSR,1946
-365,RUS,Russia,1992
-366,EST,Estonia,1991
-367,LAT,Latvia,1991
-368,LIT,Lithuania,1991
-369,UKR,Ukraine,1991
-370,BLR,Belarus,1991
-371,ARM,Armenia,1991
-372,GRG,Georgia,1991
-373,AZE,Azerbaijan,1991
-375,FIN,Finland,1946
-380,SWD,Sweden,1946
-385,NOR,Norway,1946
-390,DEN,Denmark,1946
-402,CAP,Cape Verde,1975
-404,GNB,Guinea-Bissau,1974
-411,EQG,Equatorial Guinea,1968
-420,GAM,Gambia,1965
-432,MLI,Mali,1960
-433,SEN,Senegal,1960
-434,BEN,Benin,1960
-435,MAA,Mauritania,1960
-436,NIR,Niger,1960
-437,IVO,Ivory Coast,1960
-438,GUI,Guinea,1958
-439,BFO,Burkina Faso,1960
-450,LBR,Liberia,1946
-451,SIE,Sierra Leone,1961
-452,GHA,Ghana,1960
-461,TOG,Togo,1960
-471,CAO,Cameroon,1960
-475,NIG,Nigeria,1960
-481,GAB,Gabon,1960
-482,CEN,Central African Republic,1960
-483,CHA,Chad,1960
-484,CON,Congo Brazzaville,1960
-490,ZAI,Congo Kinshasa,1960
-500,UGA,Uganda,1962
-501,KEN,Kenya,1963
-510,TAZ,Tanzania,1961
-516,BUI,Burundi,1962
-517,RWA,Rwanda,1961
-520,SOM,Somalia,1960
-522,DJI,Djibouti,1977
-525,SSU,South Sudan,2011
-529,ETI,Ethiopia,1993
-530,ETH,Ethiopia,1946
-531,ERI,Eritrea,1993
-540,ANG,Angola,1975
-541,MZM,Mozambique,1975
-551,ZAM,Zambia,1964
-552,ZIM,Zimbabwe,1970
-553,MAW,Malawi,1964
-560,SAF,South Africa,1946
-565,NAM,Namibia,1990
-570,LES,Lesotho,1966
-571,BOT,Botswana,1966
-572,SWA,Swaziland,1968
-580,MAG,Madagascar,1960
-581,COM,Comoros,1975
-590,MAS,Mauritius,1968
-600,MOR,Morocco,1956
-615,ALG,Algeria,1962
-616,TUN,Tunisia,1959
-620,LIB,Libya,1951
-625,SUD,Sudan,1956
-626,SDN,Sudan-North,2011
-630,IRN,Iran,1946
-640,TUR,Turkey,1946
-645,IRQ,Iraq,1946
-651,EGY,Egypt,1946
-652,SYR,Syria,1946
-660,LEB,Lebanon,1946
-663,JOR,Jordan,1946
-666,ISR,Israel,1948
-670,SAU,Saudi Arabia,1946
-678,YAR,Yemen North,1946
-679,YEM,Yemen,1990
-680,YPR,Yemen South,1967
-690,KUW,Kuwait,1963
-692,BAH,Bahrain,1971
-694,QAT,Qatar,1971
-696,UAE,UAE,1971
-698,OMA,Oman,1946
-700,AFG,Afghanistan,1946
-701,TKM,Turkmenistan,1991
-702,TAJ,Tajikistan,1991
-703,KYR,Kyrgyzstan,1991
-704,UZB,Uzbekistan,1991
-705,KZK,Kazakhstan,1991
-710,CHN,China,1946
-712,MON,Mongolia,1946
-713,TAW,Taiwan,1949
-731,PRK,Korea North,1948
-732,ROK,Korea South,1948
-740,JPN,Japan,1946
-750,IND,India,1950
-760,BHU,Bhutan,1946
-769,PKS,Pakistan,1947
-770,PAK,Pakistan,1972
-771,BNG,Bangladesh,1972
-775,MYA,Myanmar (Burma),1948
-780,SRI,Sri Lanka,1948
-790,NEP,Nepal,1946
-800,THI,Thailand,1946
-811,CAM,Cambodia,1953
-812,LAO,Laos,1954
-816,DRV,Vietnam North,1954
-817,RVN,Vietnam South,1955
-818,VIE,Vietnam,1976
-820,MAL,Malaysia,1957
-830,SIN,Singapore,1959
-840,PHI,Philippines,1946
-850,INS,Indonesia,1946
-860,ETM,East Timor,2002
-900,AUL,Australia,1946
-910,PNG,Papua New Guinea,1975
-920,NEW,New Zealand,1946
-940,SOL,Solomon Islands,1978
-950,FJI,Fiji,1970
+ccode,country,year
+2,United States,1946
+20,Canada,1946
+40,Cuba,1946
+41,Haiti,1946
+42,Dominican Republic,1946
+51,Jamaica,1959
+52,Trinidad and Tobago,1962
+70,Mexico,1946
+90,Guatemala,1946
+91,Honduras,1946
+92,El Salvador,1946
+93,Nicaragua,1946
+94,Costa Rica,1946
+95,Panama,1946
+100,Colombia,1946
+101,Venezuela,1946
+110,Guyana,1966
+115,Suriname,1975
+130,Ecuador,1946
+135,Peru,1946
+140,Brazil,1946
+145,Bolivia,1946
+150,Paraguay,1946
+155,Chile,1946
+160,Argentina,1946
+165,Uruguay,1946
+200,United Kingdom,1946
+205,Ireland,1946
+210,Netherlands,1946
+211,Belgium,1946
+212,Luxembourg,1946
+220,France,1946
+225,Switzerland,1946
+230,Spain,1946
+235,Portugal,1946
+255,Germany,1990
+260,Germany West,1946
+265,Germany East,1946
+290,Poland,1946
+305,Austria,1946
+310,Hungary,1946
+315,Czechoslovakia,1946
+316,Czech Republic,1993
+317,Slovak Republic,1993
+325,Italy,1946
+339,Albania,1946
+341,Kosovo,2008
+342,Serbia,2006
+343,Macedonia,1991
+344,Croatia,1991
+345,Yugoslavia,1946
+346,Bosnia,1992
+347,Yugoslavia,1991
+348,Montenegro,2006
+349,Slovenia,1991
+350,Greece,1946
+352,Cyprus,1960
+355,Bulgaria,1946
+359,Moldova,1991
+360,Romania,1946
+364,USSR,1946
+365,Russia,1992
+366,Estonia,1991
+367,Latvia,1991
+368,Lithuania,1991
+369,Ukraine,1991
+370,Belarus,1991
+371,Armenia,1991
+372,Georgia,1991
+373,Azerbaijan,1991
+375,Finland,1946
+380,Sweden,1946
+385,Norway,1946
+390,Denmark,1946
+402,Cape Verde,1975
+404,Guinea-Bissau,1974
+411,Equatorial Guinea,1968
+420,Gambia,1965
+432,Mali,1960
+433,Senegal,1960
+434,Benin,1960
+435,Mauritania,1960
+436,Niger,1960
+437,Ivory Coast,1960
+438,Guinea,1958
+439,Burkina Faso,1960
+450,Liberia,1946
+451,Sierra Leone,1961
+452,Ghana,1960
+461,Togo,1960
+471,Cameroon,1960
+475,Nigeria,1960
+481,Gabon,1960
+482,Central African Republic,1960
+483,Chad,1960
+484,Congo Brazzaville,1960
+490,Congo Kinshasa,1960
+500,Uganda,1962
+501,Kenya,1963
+510,Tanzania,1961
+516,Burundi,1962
+517,Rwanda,1961
+520,Somalia,1960
+522,Djibouti,1977
+525,South Sudan,2011
+529,Ethiopia,1993
+530,Ethiopia,1946
+531,Eritrea,1993
+540,Angola,1975
+541,Mozambique,1975
+551,Zambia,1964
+552,Zimbabwe,1970
+553,Malawi,1964
+560,South Africa,1946
+565,Namibia,1990
+570,Lesotho,1966
+571,Botswana,1966
+572,Swaziland,1968
+580,Madagascar,1960
+581,Comoros,1975
+590,Mauritius,1968
+600,Morocco,1956
+615,Algeria,1962
+616,Tunisia,1959
+620,Libya,1951
+625,Sudan,1956
+626,Sudan-North,2011
+630,Iran,1946
+640,Turkey,1946
+645,Iraq,1946
+651,Egypt,1946
+652,Syria,1946
+660,Lebanon,1946
+663,Jordan,1946
+666,Israel,1948
+670,Saudi Arabia,1946
+678,Yemen North,1946
+679,Yemen,1990
+680,Yemen South,1967
+690,Kuwait,1963
+692,Bahrain,1971
+694,Qatar,1971
+696,UAE,1971
+698,Oman,1946
+700,Afghanistan,1946
+701,Turkmenistan,1991
+702,Tajikistan,1991
+703,Kyrgyzstan,1991
+704,Uzbekistan,1991
+705,Kazakhstan,1991
+710,China,1946
+712,Mongolia,1946
+713,Taiwan,1949
+731,Korea North,1948
+732,Korea South,1948
+740,Japan,1946
+750,India,1950
+760,Bhutan,1946
+769,Pakistan,1947
+770,Pakistan,1972
+771,Bangladesh,1972
+775,Myanmar (Burma),1948
+780,Sri Lanka,1948
+790,Nepal,1946
+800,Thailand,1946
+811,Cambodia,1953
+812,Laos,1954
+816,Vietnam North,1954
+817,Vietnam South,1955
+818,Vietnam,1976
+820,Malaysia,1957
+830,Singapore,1959
+840,Philippines,1946
+850,Indonesia,1946
+860,East Timor,2002
+900,Australia,1946
+910,Papua New Guinea,1975
+920,New Zealand,1946
+940,Solomon Islands,1978
+950,Fiji,1970
