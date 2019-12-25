@@ -5196,17 +5196,17 @@ Kiribati,2015,Oceania,Micronesia,946,970,KIR,,KIR
 Kiribati,2016,Oceania,Micronesia,946,970,KIR,,KIR
 Kiribati,2017,Oceania,Micronesia,946,970,KIR,,KIR
 Kiribati,2018,Oceania,Micronesia,946,970,KIR,,KIR
-Kosovo,2008,,,347,347,XKX,341,XKX
-Kosovo,2009,,,347,347,XKX,341,XKX
-Kosovo,2010,,,347,347,XKX,341,XKX
-Kosovo,2011,,,347,347,XKX,341,XKX
-Kosovo,2012,,,347,347,XKX,341,XKX
-Kosovo,2013,,,347,347,XKX,341,XKX
-Kosovo,2014,,,347,347,XKX,341,XKX
-Kosovo,2015,,,347,347,XKX,341,XKX
-Kosovo,2016,,,347,347,XKX,341,XKX
-Kosovo,2017,,,347,347,XKX,341,XKX
-Kosovo,2018,,,347,347,XKX,341,XKX
+Kosovo,2008,Europe,Southern Europe,347,347,XKX,341,XKX
+Kosovo,2009,Europe,Southern Europe,347,347,XKX,341,XKX
+Kosovo,2010,Europe,Southern Europe,347,347,XKX,341,XKX
+Kosovo,2011,Europe,Southern Europe,347,347,XKX,341,XKX
+Kosovo,2012,Europe,Southern Europe,347,347,XKX,341,XKX
+Kosovo,2013,Europe,Southern Europe,347,347,XKX,341,XKX
+Kosovo,2014,Europe,Southern Europe,347,347,XKX,341,XKX
+Kosovo,2015,Europe,Southern Europe,347,347,XKX,341,XKX
+Kosovo,2016,Europe,Southern Europe,347,347,XKX,341,XKX
+Kosovo,2017,Europe,Southern Europe,347,347,XKX,341,XKX
+Kosovo,2018,Europe,Southern Europe,347,347,XKX,341,XKX
 Kuwait,1961,Asia,Western Asia,690,690,KWT,,KWT
 Kuwait,1962,Asia,Western Asia,690,690,KWT,,KWT
 Kuwait,1963,Asia,Western Asia,690,690,KWT,690,KWT
@@ -8421,18 +8421,19 @@ Senegal,2015,Africa,Western Africa,433,433,SEN,433,SEN
 Senegal,2016,Africa,Western Africa,433,433,SEN,433,SEN
 Senegal,2017,Africa,Western Africa,433,433,SEN,433,SEN
 Senegal,2018,Africa,Western Africa,433,433,SEN,433,SEN
-Serbia,2006,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2007,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2008,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2009,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2010,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2011,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2012,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2013,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2014,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2015,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2016,Europe,Southern Europe,,340,SRB,342,SRB
-Serbia,2017,Europe,Southern Europe,,340,SRB,342,SRB
+Serbia,2006,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2007,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2008,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2009,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2010,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2011,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2012,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2013,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2014,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2015,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2016,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2017,Europe,Southern Europe,345,340,SRB,342,SRB
+Serbia,2018,Europe,Southern Europe,345,340,SRB,342,SRB
 Seychelles,1976,Africa,Eastern Africa,591,591,SYC,,SYC
 Seychelles,1977,Africa,Eastern Africa,591,591,SYC,,SYC
 Seychelles,1978,Africa,Eastern Africa,591,591,SYC,,SYC
@@ -10794,79 +10795,68 @@ Yemen People's Republic,1987,,,680,680,,680,
 Yemen People's Republic,1988,,,680,680,,680,
 Yemen People's Republic,1989,,,680,680,,680,
 Yemen People's Republic,1990,,,680,680,,680,
-Yugoslavia,1946,,,345,345,YUG,345,
-Yugoslavia,1947,,,345,345,YUG,345,
-Yugoslavia,1948,,,345,345,YUG,345,
-Yugoslavia,1949,,,345,345,YUG,345,
-Yugoslavia,1950,,,345,345,YUG,345,
-Yugoslavia,1951,,,345,345,YUG,345,
-Yugoslavia,1952,,,345,345,YUG,345,
-Yugoslavia,1953,,,345,345,YUG,345,
-Yugoslavia,1954,,,345,345,YUG,345,
-Yugoslavia,1955,,,345,345,YUG,345,
-Yugoslavia,1956,,,345,345,YUG,345,
-Yugoslavia,1957,,,345,345,YUG,345,
-Yugoslavia,1958,,,345,345,YUG,345,
-Yugoslavia,1959,,,345,345,YUG,345,
-Yugoslavia,1960,,,345,345,YUG,345,
-Yugoslavia,1961,,,345,345,YUG,345,
-Yugoslavia,1962,,,345,345,YUG,345,
-Yugoslavia,1963,,,345,345,YUG,345,
-Yugoslavia,1964,,,345,345,YUG,345,
-Yugoslavia,1965,,,345,345,YUG,345,
-Yugoslavia,1966,,,345,345,YUG,345,
-Yugoslavia,1967,,,345,345,YUG,345,
-Yugoslavia,1968,,,345,345,YUG,345,
-Yugoslavia,1969,,,345,345,YUG,345,
-Yugoslavia,1970,,,345,345,YUG,345,
-Yugoslavia,1971,,,345,345,YUG,345,
-Yugoslavia,1972,,,345,345,YUG,345,
-Yugoslavia,1973,,,345,345,YUG,345,
-Yugoslavia,1974,,,345,345,YUG,345,
-Yugoslavia,1975,,,345,345,YUG,345,
-Yugoslavia,1976,,,345,345,YUG,345,
-Yugoslavia,1977,,,345,345,YUG,345,
-Yugoslavia,1978,,,345,345,YUG,345,
-Yugoslavia,1979,,,345,345,YUG,345,
-Yugoslavia,1980,,,345,345,YUG,345,
-Yugoslavia,1981,,,345,345,YUG,345,
-Yugoslavia,1982,,,345,345,YUG,345,
-Yugoslavia,1983,,,345,345,YUG,345,
-Yugoslavia,1984,,,345,345,YUG,345,
-Yugoslavia,1985,,,345,345,YUG,345,
-Yugoslavia,1986,,,345,345,YUG,345,
-Yugoslavia,1987,,,345,345,YUG,345,
-Yugoslavia,1988,,,345,345,YUG,345,
-Yugoslavia,1989,,,345,345,YUG,345,
-Yugoslavia,1990,,,345,345,YUG,345,
-Yugoslavia,1991,,,345,345,YUG,347,
-Yugoslavia,1992,,,345,345,YUG,347,
-Yugoslavia,1993,,,345,345,YUG,347,
-Yugoslavia,1994,,,345,345,YUG,347,
-Yugoslavia,1995,,,345,345,YUG,347,
-Yugoslavia,1996,,,345,345,YUG,347,
-Yugoslavia,1997,,,345,345,YUG,347,
-Yugoslavia,1998,,,345,345,YUG,347,
-Yugoslavia,1999,,,345,345,YUG,347,
-Yugoslavia,2000,,,345,345,YUG,347,
-Yugoslavia,2001,,,345,345,YUG,347,
-Yugoslavia,2002,,,345,345,YUG,347,
-Yugoslavia,2003,,,345,345,YUG,347,
-Yugoslavia,2004,,,345,345,YUG,347,
-Yugoslavia,2005,,,345,345,YUG,347,
-Yugoslavia,2006,,,345,345,YUG,347,
-Yugoslavia,2007,,,345,345,,,
-Yugoslavia,2008,,,345,345,,,
-Yugoslavia,2009,,,345,345,,,
-Yugoslavia,2010,,,345,345,,,
-Yugoslavia,2011,,,345,345,,,
-Yugoslavia,2012,,,345,345,,,
-Yugoslavia,2013,,,345,345,,,
-Yugoslavia,2014,,,345,345,,,
-Yugoslavia,2015,,,345,345,,,
-Yugoslavia,2016,,,345,345,,,
-Yugoslavia,2017,,,345,345,,,
-Yugoslavia,2018,,,345,345,,,
+Yugoslavia,1946,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1947,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1948,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1949,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1950,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1951,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1952,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1953,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1954,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1955,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1956,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1957,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1958,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1959,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1960,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1961,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1962,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1963,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1964,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1965,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1966,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1967,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1968,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1969,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1970,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1971,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1972,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1973,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1974,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1975,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1976,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1977,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1978,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1979,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1980,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1981,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1982,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1983,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1984,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1985,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1986,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1987,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1988,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1989,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1990,Europe,Southern Europe,345,345,YUG,345,SRB
+Yugoslavia,1991,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,1992,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,1993,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,1994,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,1995,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,1996,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,1997,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,1998,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,1999,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,2000,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,2001,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,2002,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,2003,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,2004,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,2005,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,2006,Europe,Southern Europe,345,345,YUG,347,SRB
+Yugoslavia,2007,Europe,Southern Europe,345,345,YUG,347,SRB
 Zambia,1964,Africa,Eastern Africa,551,551,ZMB,551,ZMB
 Zambia,1965,Africa,Eastern Africa,551,551,ZMB,551,ZMB
 Zambia,1966,Africa,Eastern Africa,551,551,ZMB,551,ZMB

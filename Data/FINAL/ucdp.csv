@@ -1,4 +1,4 @@
-gw_id,year,war_count,conflict_count,max_ep-intensity,incompatibility_isTerritory,incompatibility_isGovernment,type_Extrasystemic,type_Internal,type_Internationalized Internal,type_Interstate,role_primary,role_secondary,ep-intensity_Minor,ep-intensity_War,cum-intensity_Minor,cum-intensity_War
+gw_id,year,war_count,conflict_count,max_ep-intensity,incompatibility_isTerritory,incompatibility_isGovernment,type_Extrasystemic,type_Internal,type_InternationalizedInternal,type_Interstate,role_primary,role_secondary,ep-intensity_Minor,ep-intensity_War,cum-intensity_Minor,cum-intensity_War
 2,1950,1,2,2,2,0,1,0,0,1,1,1,1,1,1,1
 2,1951,1,1,2,1,0,0,0,0,1,0,1,0,1,0,1
 2,1952,1,1,2,1,0,0,0,0,1,0,1,0,1,0,1
