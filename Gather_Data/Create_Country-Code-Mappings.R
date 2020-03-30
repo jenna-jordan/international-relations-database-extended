@@ -10,7 +10,7 @@ needed.columns = c('country.name.en', 'year', 'continent', 'region', 'cown', 'gw
 country.conversion.table <- subset(codelist_panel, year > 1945, select=needed.columns)
 
 # fill in missing G&W codes for microstates
-gw_micro <- read.table("../Data/Other/microstatessystem.dat", sep="\t", fileEncoding = 'latin1', col.names = c('gw.id', 'gwc', 'gw.name', 'start', 'end'), colClasses=c("character"))
+gw_micro <- read.table("../Data/GW/Raw/microstatessystem.dat", sep="\t", fileEncoding = 'latin1', col.names = c('gw.id', 'gwc', 'gw.name', 'start', 'end'), colClasses=c("character"))
 gw_micro$gw.name[3]="St. Lucia"
 gw_micro$gw.name[4]="St. Vincent & Grenadines"
 gw_micro$gw.name[6]="St. Kitts & Nevis"
@@ -27,5 +27,5 @@ country.conversion.table <- subset(country.conversion.table, select = -c(gw.id))
 # drop rows that don't have either CoW codes or G&W codes
 country.conversion.table <- country.conversion.table[!with(country.conversion.table, is.na(cown)& is.na(gwn)),]
 
-write.csv(country.conversion.table, '../Data/Other/country_conversion_table.csv', na="", row.names=FALSE)
+write.csv(country.conversion.table, '../Data/countrycode/country_conversion_table.csv', na="", row.names=FALSE)
 
